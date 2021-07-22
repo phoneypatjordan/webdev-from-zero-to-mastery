@@ -3,8 +3,10 @@ var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
 var li = document.querySelectorAll('li');
 
+
 function inputLength() {
-	return input.value.length;
+	var remText = input.value.replace(/ /g, "");
+	return remText.length;
 }
 
 function addButton(li){
