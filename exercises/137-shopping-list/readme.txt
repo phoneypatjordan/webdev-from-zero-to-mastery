@@ -1,4 +1,4 @@
-LESSON 137 - EXERCISE SHOPPING LIST
+LESSON 137 - SHOPPING LIST
 
 
 1. If you click on the list item, it toggles the .done  class on and off.
