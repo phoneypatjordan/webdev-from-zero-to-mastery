@@ -1,8 +1,7 @@
 var button = document.getElementById("enter");
-var input = document.getElementById("userinput");
+var input = document.getElementById("userInput");
 var ul = document.querySelector("ul");
 var li = document.querySelectorAll('li');
-
 
 function inputLength() {
 	var remText = input.value.replace(/ /g, "");
@@ -11,7 +10,8 @@ function inputLength() {
 
 function addButton(li){
 	var deleteButton = document.createElement("Button");
-	deleteButton.innerHTML = "Delete";
+	deleteButton.className = "deleteButton";
+	deleteButton.innerHTML = "x";
 	li.appendChild(deleteButton);
 	deleteButton.onclick=removeParent;
 	input.value = "";
@@ -21,7 +21,6 @@ function createListElement() {
 	var item = document.createElement("li");
 	item.appendChild(document.createTextNode(input.value));
 	ul.appendChild(item);
-
 	addButton(item);
 }
 
