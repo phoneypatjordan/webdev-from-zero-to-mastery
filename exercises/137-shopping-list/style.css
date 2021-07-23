@@ -65,7 +65,11 @@ li:hover{
 
 #enter:hover{
   cursor: pointer;
-  background: #e3d3d3;
+  background: #add8e6 ;
+}
+
+#enter:active{
+  transform: scale(0.9);
 }
 
 .deleteButton{
@@ -78,7 +82,7 @@ li:hover{
 .deleteButton:hover{
   transition: all 0.2s;
   cursor: pointer;
-  background: #e3d3d3;
+  background: #d6abab;
 }
 
 .done {
