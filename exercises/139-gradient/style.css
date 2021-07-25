@@ -7,18 +7,39 @@ text-align: center;
 }
 
 h1{
-    font-size: 3.5rem;
-    
+    font-size: 3.5rem;   
 }
 
-h2{
-    
+h2{    
     font-weight: 600;
     letter-spacing: 0.01em;
 }
 
-h3{
-    
+h3{    
     font-weight: 400;
 }
 
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 16px;
+    background: #fefefe;
+}
+
+input{
+    margin: 5px;
+    width: 50px;
+    height: 30px;
+    padding: 0%;
+    border: 0px;
+    background: #fefefe;
+}
+
+button:hover, input:hover{
+    cursor: pointer;
+}
+
+button:active{
+    zoom: 95%;
+}
